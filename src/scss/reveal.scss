@@ -3,11 +3,9 @@
   transform: translateX(var(--reveal-tx, 0)) translateY(var(--reveal-ty, 0))
     rotate(var(--reveal-rot, 0)) scale(var(--reveal-scale, 1));
   transition: opacity var(--reveal-duration, 0.7s)
-      var(--reveal-ease, cubic-bezier(0.2, 0.8, 0.2, 1))
-      var(--reveal-delay, 0.1s),
+      var(--reveal-ease, cubic-bezier(0.2, 0.8, 0.2, 1)) var(--reveal-delay, 0s),
     transform var(--reveal-duration, 0.7s)
-      var(--reveal-ease, cubic-bezier(0.2, 0.8, 0.2, 1))
-      var(--reveal-delay, 0.1s);
+      var(--reveal-ease, cubic-bezier(0.2, 0.8, 0.2, 1)) var(--reveal-delay, 0s);
 }
 
 .js .reveal.is-in {

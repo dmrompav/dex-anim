@@ -102,30 +102,40 @@
     position: absolute;
     top: -185px;
     left: -276px;
+    --reveal-ty: 100px;
+    --reveal-tx: -20px;
   }
 
   &_2 {
     position: absolute;
     left: -365px;
     bottom: 237px;
+    --reveal-ty: 75px;
+    --reveal-tx: 40px;
   }
 
   &_3 {
     position: absolute;
     top: 30px;
     left: -362px;
+    --reveal-ty: 40px;
+    --reveal-tx: 80px;
   }
 
   &_4 {
     position: absolute;
     top: 139px;
     left: -338px;
+    --reveal-ty: 15px;
+    --reveal-tx: 60px;
   }
 
   &_5 {
     position: absolute;
     top: 247px;
     left: -267px;
+    --reveal-ty: -20px;
+    --reveal-tx: 40px;
   }
 }
 
@@ -135,6 +145,10 @@
     top: -183px;
     right: -285px;
     width: 138px;
+    --reveal-ty: 120px;
+    --reveal-tx: -90px;
+    --reveal-rot: 40deg;
+    transform-origin: 0% 50%;
   }
 
   &_2 {
@@ -142,6 +156,9 @@
     top: -83px;
     right: -334px;
     width: 159px;
+    --reveal-ty: 120px;
+    --reveal-tx: -80px;
+    --reveal-rot: 30deg;
   }
 
   &_3 {
@@ -149,6 +166,9 @@
     top: 55px;
     right: -363px;
     width: 161px;
+    --reveal-ty: 120px;
+    --reveal-tx: -80px;
+    --reveal-rot: 20deg;
   }
 
   &_4 {
@@ -156,6 +176,9 @@
     top: 170px;
     right: -321px;
     width: 132px;
+    --reveal-ty: 0px;
+    --reveal-tx: -60px;
+    --reveal-rot: 10deg;
   }
 
   &_5 {
@@ -163,5 +186,8 @@
     top: 263px;
     right: -280px;
     width: 139px;
+    --reveal-ty: -30px;
+    --reveal-tx: -40px;
+    --reveal-rot: 0deg;
   }
 }
