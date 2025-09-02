@@ -10,6 +10,7 @@ import raysLeft from "./assets/rays-left.svg?raw";
 import raysRight from "./assets/rays-right.svg?raw";
 import shapeLeft from "./assets/shape-left.svg?raw";
 import shapeRight from "./assets/shape-right.svg?raw";
+import { Animated } from "./Animated";
 
 export const AnimatedCircleWrapper = () => {
   const [animation, setAnimation] = useState<Animation>("Filter");
@@ -37,7 +38,9 @@ export const AnimatedCircleWrapper = () => {
         <Svg svg={ellipseShadow} className={cls.Before__Ellipse_1} />
         <Svg svg={ellipseShadow} className={cls.Before__Ellipse_2} />
       </div>
-      <div className={cls.Ellipse}></div>
+      <div className={cls.Ellipse}>
+        <Animated value={animation} />
+      </div>
       <div className={cls.Ring}>
         <Svg svg={ring} />
       </div>

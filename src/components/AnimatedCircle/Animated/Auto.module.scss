@@ -1,0 +1,89 @@
+.Wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.OverflowWidth {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  transition: width 0.5s;
+  border-radius: 153px 0 0 153px;
+}
+
+.Carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1399px;
+}
+
+.Step {
+  &_1 {
+    & .Carousel {
+      transform: translateX(-24%) translateY(-18%);
+      transition: none;
+    }
+    & .OverflowWidth {
+      width: 56%;
+      transition: width 0.5s ease;
+    }
+  }
+  &_2 {
+    & .Carousel {
+      transform: translateX(-28%) translateY(-5%);
+      transition: transform 0.5s ease;
+    }
+    & .OverflowWidth {
+      width: 58%;
+      transition: width 0.5s ease;
+    }
+  }
+  &_3 {
+    & .Carousel {
+      transform: translateX(-40%) translateY(-4%);
+      transition: transform 0.5s ease;
+    }
+    & .OverflowWidth {
+      width: 57%;
+      transition: width 0.5s ease;
+    }
+  }
+  &_4 {
+    & .Carousel {
+      transform: translateX(-47%) translateY(18%);
+      transition: transform 0.5s ease;
+    }
+    & .OverflowWidth {
+      width: 53%;
+      transition: width 0.5s ease;
+    }
+  }
+  &_5 {
+    & .Carousel {
+      transform: translateX(-54%) translateY(-10%);
+      transition: transform 0.5s ease;
+    }
+    & .OverflowWidth {
+      width: 45%;
+      transition: width 0.5s ease;
+    }
+  }
+  &_6 {
+    & .Carousel {
+      transform: translateX(-57.3%) translateY(-18%);
+      transition: transform 0.5s ease;
+    }
+    & .OverflowWidth {
+      width: 56%;
+      transition: width 0.5s ease;
+    }
+  }
+}
+
+.Svg {
+}
