@@ -22,16 +22,16 @@ export const AnimatedCircleWrapper = () => {
         <Svg svg={raysRight} className={`reveal ${cls.Ray_right}`} />
         <Svg svg={shapeLeft} className={`reveal ${cls.Shape_left}`} />
         <Svg svg={shapeRight} className={`reveal ${cls.Shape_right}`} />
-        <img src="icons/sq-1.png" className={`reveal ${cls.Sq_1}`} />
-        <img src="icons/sq-2.png" className={`reveal ${cls.Sq_2}`} />
-        <img src="icons/sq-3.png" className={`reveal ${cls.Sq_3}`} />
-        <img src="icons/sq-4.png" className={`reveal ${cls.Sq_4}`} />
-        <img src="icons/sq-5.png" className={`reveal ${cls.Sq_5}`} />
-        <img src="icons/card1.png" className={`reveal ${cls.Sell_1}`} />
-        <img src="icons/card2.png" className={`reveal ${cls.Sell_2}`} />
-        <img src="icons/card3.png" className={`reveal ${cls.Sell_3}`} />
-        <img src="icons/card4.png" className={`reveal ${cls.Sell_4}`} />
-        <img src="icons/card5.png" className={`reveal ${cls.Sell_5}`} />
+        <img src="icons/sq-1.webp" className={`reveal ${cls.Sq_1}`} />
+        <img src="icons/sq-2.webp" className={`reveal ${cls.Sq_2}`} />
+        <img src="icons/sq-3.webp" className={`reveal ${cls.Sq_3}`} />
+        <img src="icons/sq-4.webp" className={`reveal ${cls.Sq_4}`} />
+        <img src="icons/sq-5.webp" className={`reveal ${cls.Sq_5}`} />
+        <img src="icons/card1.webp" className={`reveal ${cls.Sell_1}`} />
+        <img src="icons/card2.webp" className={`reveal ${cls.Sell_2}`} />
+        <img src="icons/card3.webp" className={`reveal ${cls.Sell_3}`} />
+        <img src="icons/card4.webp" className={`reveal ${cls.Sell_4}`} />
+        <img src="icons/card5.webp" className={`reveal ${cls.Sell_5}`} />
       </div>
 
       <div className={cls.Before}>

@@ -22,15 +22,15 @@
   width: 1399px;
 }
 
-.Svg {
-  & :global(.robotIcon),
-  & :global(.SIcon),
-  & :global(.BIcon) {
-    opacity: 0;
-    transform: none;
-    transition: opacity 0.5s ease, transform 0.5s ease;
-  }
-}
+// .Svg {
+//   & :global(.robotIcon),
+//   & :global(.SIcon),
+//   & :global(.BIcon) {
+//     opacity: 0;
+//     transform: none;
+//     transition: opacity 0.5s ease, transform 0.5s ease;
+//   }
+// }
 
 .Step {
   &_1 {
@@ -41,11 +41,11 @@
     & .OverflowWidth {
       width: 56%;
     }
-    & .Svg :global(.robotIcon) {
-      transition: none;
-      transform: translateY(10%);
-      opacity: 0;
-    }
+    // & .Svg :global(.robotIcon) {
+    //   transition: none;
+    //   transform: translateY(10%);
+    //   opacity: 0;
+    // }
   }
   &_2 {
     & .Carousel {
@@ -56,11 +56,11 @@
       width: 58%;
       transition: width 0.5s ease;
     }
-    & .Svg :global(.robotIcon) {
-      transition: transform 0.5s ease, opacity 0.5s ease;
-      transform: translateY(10%);
-      opacity: 1;
-    }
+    // & .Svg :global(.robotIcon) {
+    //   transition: transform 0.5s ease, opacity 0.5s ease;
+    //   transform: translateY(10%);
+    //   opacity: 1;
+    // }
   }
   &_3 {
     & .Carousel {
@@ -71,6 +71,11 @@
       width: 57%;
       transition: width 0.5s ease;
     }
+    // & .Svg :global(.robotIcon) {
+    //   transition: transform 0.5s ease, opacity 0.5s ease;
+    //   transform: translateY(10%);
+    //   opacity: 1;
+    // }
   }
   &_4 {
     & .Carousel {
