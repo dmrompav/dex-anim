@@ -37,12 +37,12 @@ export const Auto = () => {
     animate();
     const interval = setInterval(() => {
       animate();
-    }, 2800);
+    }, 3200);
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <div ref={ref} className={`${cls.Wrapper} ${cls.Step_5}`}>
+    <div ref={ref} className={`${cls.Wrapper}`}>
       <div className={cls.OverflowWidth}>
         <div className={cls.Carousel}>
           <Svg className={cls.Svg} svg={autoSvg} />
