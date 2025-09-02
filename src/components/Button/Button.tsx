@@ -11,7 +11,7 @@ export const Button = ({
   className?: string;
 } & React.HTMLAttributes<HTMLButtonElement>) => {
   return (
-    <button className={[cls.Button, className || ""].join("")} {...props}>
+    <button className={[cls.Button, className || ""].join(" ")} {...props}>
       {children}
     </button>
   );

@@ -1,0 +1,167 @@
+.Wrapper {
+  position: relative;
+  width: 305px;
+  height: 305px;
+  margin-top: 0.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 60px 0px var(--color-shadow-dark);
+
+  --reveal-ty: 100px;
+}
+
+.Ellipse {
+  position: absolute;
+  width: 305px;
+  height: 305px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.Ring {
+  position: absolute;
+  width: 305px;
+  height: 305px;
+}
+
+.Before {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  &__Ellipse_1 {
+    position: absolute;
+    // border-radius: 50%;
+    left: -92px;
+    // width: 218px;
+    // height: 218px;
+    // background: radial-gradient(rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 60%);
+  }
+
+  &__Ellipse_2 {
+    position: absolute;
+    // border-radius: 50%;
+    right: -92px;
+    // width: 218px;
+    // height: 218px;
+    // background: radial-gradient(rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 60%);
+  }
+}
+
+.After {
+  position: absolute;
+  top: 28px;
+}
+
+.Rays {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Ray {
+  &_left {
+    position: absolute;
+    left: -270px;
+    bottom: -11px;
+  }
+
+  &_right {
+    position: absolute;
+    right: -209px;
+    bottom: 13px;
+  }
+}
+
+.Shape {
+  &_left {
+    position: absolute;
+    left: -293px;
+    bottom: -99px;
+    --reveal-ty: 0;
+    --reveal-tx: 293px;
+  }
+
+  &_right {
+    position: absolute;
+    right: -287px;
+    bottom: -99px;
+    --reveal-ty: 0;
+    --reveal-tx: -287px;
+  }
+}
+
+.Sq {
+  &_1 {
+    position: absolute;
+    top: -185px;
+    left: -276px;
+  }
+
+  &_2 {
+    position: absolute;
+    left: -365px;
+    bottom: 237px;
+  }
+
+  &_3 {
+    position: absolute;
+    top: 30px;
+    left: -362px;
+  }
+
+  &_4 {
+    position: absolute;
+    top: 139px;
+    left: -338px;
+  }
+
+  &_5 {
+    position: absolute;
+    top: 247px;
+    left: -267px;
+  }
+}
+
+.Sell {
+  &_1 {
+    position: absolute;
+    top: -183px;
+    right: -285px;
+    width: 138px;
+  }
+
+  &_2 {
+    position: absolute;
+    top: -83px;
+    right: -334px;
+    width: 159px;
+  }
+
+  &_3 {
+    position: absolute;
+    top: 55px;
+    right: -363px;
+    width: 161px;
+  }
+
+  &_4 {
+    position: absolute;
+    top: 170px;
+    right: -321px;
+    width: 132px;
+  }
+
+  &_5 {
+    position: absolute;
+    top: 263px;
+    right: -280px;
+    width: 139px;
+  }
+}

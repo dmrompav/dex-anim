@@ -27,13 +27,19 @@
   line-height: 105%;
 
   &_1 {
+    --reveal-ty: 50px;
   }
   &_2 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
+    --reveal-ty: 100px;
   }
+}
+
+.Button {
+  --reveal-ty: 100px;
 }
 
 .Button__text {
