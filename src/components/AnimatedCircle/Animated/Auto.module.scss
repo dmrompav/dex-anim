@@ -22,15 +22,15 @@
   width: 1399px;
 }
 
-// .Svg {
-//   & :global(.robotIcon),
-//   & :global(.SIcon),
-//   & :global(.BIcon) {
-//     opacity: 0;
-//     transform: none;
-//     transition: opacity 0.5s ease, transform 0.5s ease;
-//   }
-// }
+.Svg {
+  & :global(.robotIcon),
+  & :global(.SIcon),
+  & :global(.BIcon) {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.2s 0.2s, transform 0.2s 0.2s;
+  }
+}
 
 .Step {
   &_1 {
@@ -41,70 +41,70 @@
     & .OverflowWidth {
       width: 56%;
     }
-    // & .Svg :global(.robotIcon) {
-    //   transition: none;
-    //   transform: translateY(10%);
-    //   opacity: 0;
-    // }
+    & .Svg :global(.robotIcon) {
+      transition: none;
+      transform: translateY(30px);
+      opacity: 0;
+    }
   }
   &_2 {
     & .Carousel {
       transform: translateX(-28%) translateY(-5%);
-      transition: transform 0.5s ease;
+      transition: transform 0.3s ease-in-out;
     }
     & .OverflowWidth {
       width: 58%;
-      transition: width 0.5s ease;
+      transition: width 0.3s ease-in-out;
     }
-    // & .Svg :global(.robotIcon) {
-    //   transition: transform 0.5s ease, opacity 0.5s ease;
-    //   transform: translateY(10%);
-    //   opacity: 1;
-    // }
+    & .Svg :global(.BIcon) {
+      transition: none;
+      transform: translateY(30px);
+      opacity: 0;
+    }
   }
   &_3 {
     & .Carousel {
       transform: translateX(-40%) translateY(-4%);
-      transition: transform 0.5s ease;
+      transition: transform 0.3s ease-in-out;
     }
     & .OverflowWidth {
       width: 57%;
-      transition: width 0.5s ease;
+      transition: width 0.3s ease-in-out;
     }
-    // & .Svg :global(.robotIcon) {
-    //   transition: transform 0.5s ease, opacity 0.5s ease;
-    //   transform: translateY(10%);
-    //   opacity: 1;
-    // }
+    & .Svg :global(.SIcon) {
+      transition: none;
+      transform: translateY(30px);
+      opacity: 0;
+    }
   }
   &_4 {
     & .Carousel {
       transform: translateX(-47%) translateY(18%);
-      transition: transform 0.5s ease;
+      transition: transform 0.3s ease-in-out;
     }
     & .OverflowWidth {
       width: 53%;
-      transition: width 0.5s ease;
+      transition: width 0.3s ease-in-out;
     }
   }
   &_5 {
     & .Carousel {
       transform: translateX(-54%) translateY(-10%);
-      transition: transform 0.5s ease;
+      transition: transform 0.3s ease-in-out;
     }
     & .OverflowWidth {
       width: 45%;
-      transition: width 0.5s ease;
+      transition: width 0.3s ease-in-out;
     }
   }
   &_6 {
     & .Carousel {
-      transform: translateX(-57.3%) translateY(-18%);
-      transition: transform 0.5s ease;
+      transform: translateX(-57.3333%) translateY(-18%);
+      transition: transform 0.3s ease-in-out;
     }
     & .OverflowWidth {
       width: 56%;
-      transition: width 0.5s ease;
+      transition: width 0.3s ease-in-out;
     }
   }
 }
