@@ -1,0 +1,49 @@
+.Hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.Title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  position: relative;
+}
+
+.Title__sub {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--color-accent-light);
+  line-height: 95%;
+}
+
+.Title__main {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 105%;
+
+  &_1 {
+  }
+  &_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+  }
+}
+
+.Button__text {
+  margin-right: 1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.Button__icon {
+  height: 1rem;
+  width: auto;
+}

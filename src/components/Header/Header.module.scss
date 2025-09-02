@@ -1,0 +1,21 @@
+.Header {
+  width: 95vw;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-bg-gray);
+}
+
+.Logo {
+  display: flex;
+  font-weight: 400;
+  height: 1.5rem;
+
+  & > div {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+.LogoIcon {
+  margin-right: 0.25rem;
+}

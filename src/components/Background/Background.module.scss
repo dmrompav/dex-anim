@@ -1,0 +1,45 @@
+.Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.EllipseWrapper {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Ellipse {
+  position: absolute;
+  animation: spin 60s linear infinite;
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+}
+
+.Vector {
+  position: absolute;
+  bottom: 20%;
+  transform: translate(-10%, 50%);
+}
+
+.Star {
+  position: absolute;
+  bottom: -100%;
+  right: -10%;
+  transform: translate(50%, 55%);
+}
